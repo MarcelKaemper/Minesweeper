@@ -25,14 +25,6 @@ function setup() {
             cells.push(cell);
         }
     }
-
-    // for (var i = 0; i < gridSize; i++) {
-    //     for (let j = 0; j < gridSize; j++) {
-    //         let cell = new Cell(0+(cellSize*j),0+(cellSize*i), cellSize);
-    //         cells.push(cell);
-    //         console.log(cell);
-    //     }
-    // }
 }
 
 function draw() {
