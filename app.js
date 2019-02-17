@@ -1,4 +1,7 @@
 var cells = [];
+var bombCount = 3
+var cellCount = 26;
+var neededToWin = cellCount-bombCount;
 
 function setup() {
     createCanvas(600, 600);
@@ -27,7 +30,7 @@ function setup() {
     }
 }
 
-function draw() {
+draw = () => {
     for(let i = 0; i<cells.length; i++){
         cells[i].show();
     }
