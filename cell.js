@@ -21,9 +21,14 @@ class Cell {
             if(this.text == "x"){
                 alert("You lost!");
                 location.reload();
+            }else{
+                neededToWin-=1;
+            }
+            if(neededToWin <= 0){
+                alert("You won!");
+                location.reload();
             }
             this.revealed = true;
-            console.log("Click")
         }
     }
 }
